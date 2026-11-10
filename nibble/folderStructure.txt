@@ -1,0 +1,10 @@
+my-tracker-app/
+├── app/                  # Expo Router screens (index.tsx, log-food.tsx, profile.tsx)
+├── src/
+│   ├── database/         # SQLite initialization & queries
+│   ├── services/         # USDA & FatSecret API fetch clients
+│   ├── hooks/            # Custom logic hooks (NetInfo, TDEE calculator)
+│   └── utils/            # Mifflin-St Jeor math formulas
+├── .env                  # Your secret API keys
+├── babel.config.js       # Module resolver configuration
+└── package.json
